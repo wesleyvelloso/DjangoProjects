@@ -82,4 +82,6 @@ python manage.py runserver
 
 Ctrl + click em http://127.0.0.1:8000/
 
-No aba que abrirá no navegador, logar como super usuário
+No aba que abrirá no navegador, logar como super usuário.
+
+Executar as queries através do arquivo queries.txt na raiz do projeto. 
