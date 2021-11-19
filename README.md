@@ -55,9 +55,13 @@ scripts/activate
 
 Aplicar as migrações para a database conectada:
 cd PDHours 
+
 python manage.py makemigrations
+
 python manage.py migrate
+
 python manage.py makemigrations HoursApp
+
 python manage.py migrate HoursApp
 
 A partir daqui, as tabelas Squad,User e Reports estarão na database.
@@ -65,11 +69,17 @@ Além delas, haverão outras tabelas criadas pelo Django, que servem para autent
 São necessárias para, entre outras coisas, criar e verificar super usuário(s) e rodar o servidor localmente.
 
 Popular database:
+
 python manage.py loaddata db.json 
 
 Rodar o servidor:
+
 python manage.py createsuperuser
+
 (Preencher os dados para criação de super usuário)
+
 python manage.py runserver
+
 Ctrl + click em http://127.0.0.1:8000/
+
 No aba que abrirá no navegador, logar como super usuário
