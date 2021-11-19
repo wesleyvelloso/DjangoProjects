@@ -1,7 +1,5 @@
-# DjangoProjects
-
-Desafio PD Hours Control
-Wesley Velloso Marques
+# Desafio PD Hours Control
+## Wesley Velloso Marques
 
 Foi utilizado o framework Django com PostgreSQL, com a biblioteca psycopg2. Utiizei o Windows 10.
 Executei o projeto django no VS Code, migrando o esquema para uma base de dados Postgre no pgadmin4. 
