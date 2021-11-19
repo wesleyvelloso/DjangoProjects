@@ -15,7 +15,7 @@ Nomear a database e o proprietário (Deixei o propietário 'postgres' padrão as
 
 Execução do ambiente:
 
-Clonar DjangoProjects do github e abrir no VS Code.
+Clonar este repositório e abrir no VS Code.
 
 Abrir o arquivo settings.py no diretório PDHours
 
