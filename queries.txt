@@ -61,6 +61,4 @@ else:
     for m in squad_total_hours:
         avg_hours = m['sum']/period
         print('[',squad_name,'][',initial_date,'to',final_date,']-> Daily average of working hours = ',avg_hours)
-
-
-   
+        
